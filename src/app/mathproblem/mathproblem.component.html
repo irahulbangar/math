@@ -1,0 +1,10 @@
+<h1>Math Problem</h1>
+Number1: <input type="number" [(ngModel)]="number1"><br> 
+Number2: <input type="number" [(ngModel)]="number2"><br>
+<div class="display-1" [(ngModel)]="answer">Result: {{answer}}</div>
+<br>
+<button (click)="add()">Add</button>
+<button (click)="sub()">Sub</button>
+<button (click)="mul()">Mul</button>
+<button (click)="div()">Div</button>
+<br> {{answer}}
